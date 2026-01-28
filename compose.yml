@@ -4,6 +4,12 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
+      RAM_SIZE: "123G"
+      DISK_SIZE: "229G"
+      CPU_CORES: "8"
+      VGA: "virtio-gpu"
+      GPU: "Y"
+    
     devices:
       - /dev/kvm
       - /dev/net/tun

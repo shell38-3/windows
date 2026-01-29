@@ -5,11 +5,12 @@ services:
     environment:
       VERSION: "11"
       RAM_SIZE: "123G"
-      DISK_SIZE: "229G"
+      DISK_SIZE: "500G"
       CPU_CORES: "8"
       VGA: "virtio-gpu"
       GPU: "Y"
-    
+      MEMORY: "2TB
+      MANUAL: "Y"
     devices:
       - /dev/kvm
       - /dev/net/tun
